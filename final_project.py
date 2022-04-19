@@ -243,7 +243,6 @@ latin_dict = {}
 europe_dict = {}
 canada_dict = {}
 
-
 for z in restaurants:
     for c in z['categories']:
         try:
