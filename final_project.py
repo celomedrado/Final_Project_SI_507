@@ -356,7 +356,6 @@ class Tree():
         for i in range(len(self.children)):
             self.Nodes.append([self.children[i].data, []])
             self.children[i].getAllNodes(self.Nodes[i][1])
-        print(self.Nodes)
         write_json('tree.json', self.Nodes)
         
     def getChildNode(self):
