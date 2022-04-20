@@ -130,20 +130,20 @@
         "phone": "(734) 913-2025"
       },
       {
-        "name": "Baker's Nook",
-        "rating": 4.5,
-        "price": "$$",
-        "city": "Saline",
-        "address": "901 W Michigan Ave",
-        "phone": "(734) 429-1320"
-      },
-      {
         "name": "Cinnaholic",
         "rating": 4.5,
         "price": "$",
         "city": "Ann Arbor",
         "address": "121 E Liberty St",
         "phone": "(734) 707-1955"
+      },
+      {
+        "name": "Baker's Nook",
+        "rating": 4.5,
+        "price": "$$",
+        "city": "Saline",
+        "address": "901 W Michigan Ave",
+        "phone": "(734) 429-1320"
       },
       {
         "name": "Benny's Bakery",
@@ -226,20 +226,20 @@
         "phone": "(734) 482-9511"
       },
       {
-        "name": "Aunt Millie's Bakery Outlet",
-        "rating": 4.0,
-        "price": "$",
-        "city": "Ypsilanti",
-        "address": "5331 W Michigan Ave",
-        "phone": "(734) 528-1475"
-      },
-      {
         "name": "Luca Pastry",
         "rating": 4.5,
         "price": "Price not provided",
         "city": "Ann Arbor",
         "address": "3354 Washtenaw Ave",
         "phone": "(734) 929-4749"
+      },
+      {
+        "name": "Aunt Millie's Bakery Outlet",
+        "rating": 4.0,
+        "price": "$",
+        "city": "Ypsilanti",
+        "address": "5331 W Michigan Ave",
+        "phone": "(734) 528-1475"
       },
       {
         "name": "La Espiga Dorada Market",
@@ -397,7 +397,7 @@
       },
       {
         "name": "Izzy's Hoagie Shop",
-        "rating": 4.0,
+        "rating": 4.5,
         "price": "$",
         "city": "Ann Arbor",
         "address": "1924 W Stadium Blvd",
@@ -468,6 +468,14 @@
         "phone": "(734) 295-9191"
       },
       {
+        "name": "Latin American Cuban Cuisine",
+        "rating": 4.5,
+        "price": "Price not provided",
+        "city": "Ypsilanti",
+        "address": "2269 Ellsworth Rd",
+        "phone": "(734) 961-7452"
+      },
+      {
         "name": "V Kitchen Vietnamese Cuisine",
         "rating": 4.0,
         "price": "$$",
@@ -482,14 +490,6 @@
         "city": "Ann Arbor",
         "address": "1952 S Industrial Hwy",
         "phone": "(734) 663-6302"
-      },
-      {
-        "name": "Latin American Cuban Cuisine",
-        "rating": 4.5,
-        "price": "Price not provided",
-        "city": "Ypsilanti",
-        "address": "2269 Ellsworth Rd",
-        "phone": "(734) 961-7452"
       },
       {
         "name": "The Great Commoner",
@@ -621,19 +621,19 @@
       },
       {
         "name": "Jersey Mike's Subs",
-        "rating": 3.5,
-        "price": "$",
-        "city": "Pittsfield",
-        "address": "3650 Carpenter Rd",
-        "phone": "(734) 477-9930"
-      },
-      {
-        "name": "Jersey Mike's Subs",
         "rating": 4.0,
         "price": "$",
         "city": "Ann Arbor",
         "address": "2561 Jackson Ave",
         "phone": "(734) 761-1100"
+      },
+      {
+        "name": "Jersey Mike's Subs",
+        "rating": 3.5,
+        "price": "$",
+        "city": "Pittsfield",
+        "address": "3650 Carpenter Rd",
+        "phone": "(734) 477-9930"
       },
       {
         "name": "Alez Market",
@@ -833,7 +833,7 @@
         "price": "Price not provided",
         "city": "Ann Arbor",
         "address": "1300 S University",
-        "phone": ""
+        "phone": "(734) 929-5874"
       },
       {
         "name": "Panera Bread",
@@ -1255,19 +1255,19 @@
       },
       {
         "name": "Jersey Mike's Subs",
-        "rating": 3.5,
-        "price": "$",
-        "city": "Pittsfield",
-        "address": "3650 Carpenter Rd",
-        "phone": "(734) 477-9930"
-      },
-      {
-        "name": "Jersey Mike's Subs",
         "rating": 4.0,
         "price": "$",
         "city": "Ann Arbor",
         "address": "2561 Jackson Ave",
         "phone": "(734) 761-1100"
+      },
+      {
+        "name": "Jersey Mike's Subs",
+        "rating": 3.5,
+        "price": "$",
+        "city": "Pittsfield",
+        "address": "3650 Carpenter Rd",
+        "phone": "(734) 477-9930"
       },
       {
         "name": "Ahmo's Gyros & Deli",
@@ -1612,20 +1612,20 @@
         "phone": "(734) 662-0798"
       },
       {
-        "name": "The Common Cup",
-        "rating": 4.5,
-        "price": "$",
-        "city": "Ann Arbor",
-        "address": "1511 Washtenaw Ave",
-        "phone": "(734) 327-6914"
-      },
-      {
         "name": "The Peaberry Bean & Beats",
         "rating": 4.5,
         "price": "Price not provided",
         "city": "Whitmore Lake",
         "address": "152 Barker Rd",
         "phone": "(734) 449-9409"
+      },
+      {
+        "name": "The Common Cup",
+        "rating": 4.5,
+        "price": "$",
+        "city": "Ann Arbor",
+        "address": "1511 Washtenaw Ave",
+        "phone": "(734) 327-6914"
       },
       {
         "name": "Michigan Creamery",
@@ -1708,20 +1708,20 @@
         "phone": "(734) 461-9250"
       },
       {
-        "name": "Sweetwaters Coffee & Tea",
-        "rating": 4.0,
-        "price": "$",
-        "city": "Ypsilanti",
-        "address": "735 W Cross St",
-        "phone": "(734) 340-6865"
-      },
-      {
         "name": "MoonWink's Cafe",
         "rating": 3.5,
         "price": "$",
         "city": "Ann Arbor",
         "address": "5151 Plymouth Rd",
         "phone": "(734) 994-5151"
+      },
+      {
+        "name": "Sweetwaters Coffee & Tea",
+        "rating": 4.0,
+        "price": "$",
+        "city": "Ypsilanti",
+        "address": "735 W Cross St",
+        "phone": "(734) 340-6865"
       },
       {
         "name": "Sweetwaters Coffee & Tea",
@@ -1860,14 +1860,6 @@
         "phone": "(734) 210-5103"
       },
       {
-        "name": "Boba Tea House",
-        "rating": 4.5,
-        "price": "Price not provided",
-        "city": "Ann Arbor",
-        "address": "3780 Jackson Rd",
-        "phone": "(734) 436-4794"
-      },
-      {
         "name": "McDonald's",
         "rating": 3.5,
         "price": "$",
@@ -1922,6 +1914,14 @@
         "city": "Ann Arbor",
         "address": "3601 Washtenaw Ave",
         "phone": "(734) 477-0478"
+      },
+      {
+        "name": "Boba Tea House",
+        "rating": 4.0,
+        "price": "Price not provided",
+        "city": "Ann Arbor",
+        "address": "3780 Jackson Rd",
+        "phone": "(734) 436-4794"
       },
       {
         "name": "Starbucks",
@@ -2036,6 +2036,14 @@
         "phone": "(734) 528-1776"
       },
       {
+        "name": "7-Eleven",
+        "rating": 2.5,
+        "price": "$",
+        "city": "Ann Arbor",
+        "address": "318 S State St",
+        "phone": "(734) 913-2076"
+      },
+      {
         "name": "Speedway",
         "rating": 4.5,
         "price": "Price not provided",
@@ -2066,14 +2074,6 @@
         "city": "Ann Arbor",
         "address": "324 South State St",
         "phone": ""
-      },
-      {
-        "name": "7-Eleven",
-        "rating": 2.5,
-        "price": "$",
-        "city": "Ann Arbor",
-        "address": "318 S State St",
-        "phone": "(734) 913-2076"
       },
       {
         "name": "Tim Hortons",
@@ -3108,20 +3108,20 @@
         "phone": "(734) 913-2025"
       },
       {
-        "name": "Tea Ninja",
-        "rating": 4.0,
-        "price": "Price not provided",
-        "city": "Ann Arbor",
-        "address": "535 E Liberty St",
-        "phone": "(734) 263-2772"
-      },
-      {
         "name": "Cinnaholic",
         "rating": 4.5,
         "price": "$",
         "city": "Ann Arbor",
         "address": "121 E Liberty St",
         "phone": "(734) 707-1955"
+      },
+      {
+        "name": "Tea Ninja",
+        "rating": 4.0,
+        "price": "Price not provided",
+        "city": "Ann Arbor",
+        "address": "535 E Liberty St",
+        "phone": "(734) 263-2772"
       },
       {
         "name": "Taste of India",
@@ -3316,20 +3316,20 @@
         "phone": "(734) 827-5116"
       },
       {
+        "name": "Luca Pastry",
+        "rating": 4.5,
+        "price": "Price not provided",
+        "city": "Ann Arbor",
+        "address": "3354 Washtenaw Ave",
+        "phone": "(734) 929-4749"
+      },
+      {
         "name": "Insomnia Cookies",
         "rating": 2.5,
         "price": "$$",
         "city": "Ann Arbor",
         "address": "1229 S University Ave",
         "phone": "(877) 632-6654"
-      },
-      {
-        "name": "Shrimp Flavours",
-        "rating": 5.0,
-        "price": "$$",
-        "city": "Ypsilanti",
-        "address": "529 W Cross St",
-        "phone": "(734) 905-7113"
       },
       {
         "name": "Insomnia Cookies",
@@ -3340,20 +3340,20 @@
         "phone": "(734) 237-3669"
       },
       {
-        "name": "Luca Pastry",
-        "rating": 4.5,
-        "price": "Price not provided",
-        "city": "Ann Arbor",
-        "address": "3354 Washtenaw Ave",
-        "phone": "(734) 929-4749"
-      },
-      {
         "name": "Cannelle by Matt Knio",
         "rating": 4.5,
         "price": "Price not provided",
         "city": "Ann Arbor",
         "address": "Ann Arbor, MI 48104",
         "phone": "(734) 519-1300"
+      },
+      {
+        "name": "Shrimp Flavours",
+        "rating": 4.5,
+        "price": "$$",
+        "city": "Ypsilanti",
+        "address": "529 W Cross St",
+        "phone": "(734) 905-7113"
       },
       {
         "name": "Al Meida",
@@ -3744,6 +3744,14 @@
         "phone": "(734) 436-8412"
       },
       {
+        "name": "Eat",
+        "rating": 5.0,
+        "price": "Price not provided",
+        "city": "Ann Arbor",
+        "address": "407 N 5th Ave",
+        "phone": "(734) 369-6773"
+      },
+      {
         "name": "Village Kitchen",
         "rating": 4.0,
         "price": "$",
@@ -3792,14 +3800,6 @@
         "phone": "(734) 998-0067"
       },
       {
-        "name": "Eat",
-        "rating": 5.0,
-        "price": "Price not provided",
-        "city": "Ann Arbor",
-        "address": "407 N 5th Ave",
-        "phone": "(734) 369-6773"
-      },
-      {
         "name": "Gandy Dancer",
         "rating": 3.5,
         "price": "$$$",
@@ -3832,6 +3832,14 @@
         "phone": "(734) 434-8100"
       },
       {
+        "name": "Alpha Koney Island",
+        "rating": 4.5,
+        "price": "Price not provided",
+        "city": "Ann Arbor",
+        "address": "4389 Jackson Rd",
+        "phone": "(734) 780-7102"
+      },
+      {
         "name": "aMa Bistro",
         "rating": 3.5,
         "price": "$$",
@@ -3848,20 +3856,12 @@
         "phone": "(734) 369-2810"
       },
       {
-        "name": "Alpha Koney Island",
-        "rating": 4.5,
-        "price": "Price not provided",
-        "city": "Ann Arbor",
-        "address": "4389 Jackson Rd",
-        "phone": "(734) 780-7102"
-      },
-      {
         "name": "Beyond Juicery + Eatery",
         "rating": 4.5,
         "price": "Price not provided",
         "city": "Ann Arbor",
         "address": "3500 Washtenaw",
-        "phone": "(586) 806-5426"
+        "phone": "(734) 436-4694"
       },
       {
         "name": "Angelo's On The Side",
@@ -4384,20 +4384,20 @@
         "phone": "(734) 222-9841"
       },
       {
-        "name": "CoreLife Eatery",
-        "rating": 4.0,
-        "price": "Price not provided",
-        "city": "Ann Arbor",
-        "address": "205 N Maple Rd",
-        "phone": "(734) 412-4101"
-      },
-      {
         "name": "Bridgewater Bank Tavern",
         "rating": 4.5,
         "price": "$",
         "city": "Saline",
         "address": "8452 Boettner Rd",
         "phone": "(734) 429-5875"
+      },
+      {
+        "name": "CoreLife Eatery",
+        "rating": 4.0,
+        "price": "Price not provided",
+        "city": "Ann Arbor",
+        "address": "205 N Maple Rd",
+        "phone": "(734) 412-4101"
       },
       {
         "name": "Bobcat Bonnie's",
@@ -5398,6 +5398,14 @@
         "phone": "(734) 662-9291"
       },
       {
+        "name": "Eat",
+        "rating": 5.0,
+        "price": "Price not provided",
+        "city": "Ann Arbor",
+        "address": "407 N 5th Ave",
+        "phone": "(734) 369-6773"
+      },
+      {
         "name": "Village Kitchen",
         "rating": 4.0,
         "price": "$",
@@ -5436,14 +5444,6 @@
         "city": "Saline",
         "address": "103 E Michigan Ave",
         "phone": "(734) 429-3159"
-      },
-      {
-        "name": "Eat",
-        "rating": 5.0,
-        "price": "Price not provided",
-        "city": "Ann Arbor",
-        "address": "407 N 5th Ave",
-        "phone": "(734) 369-6773"
       },
       {
         "name": "Mark's Midtown Coney Island",
@@ -5518,12 +5518,12 @@
         "phone": "(734) 434-8100"
       },
       {
-        "name": "Mac's Acadian Seafood Shack",
-        "rating": 3.5,
-        "price": "$$$",
-        "city": "Saline",
-        "address": "104 E Michigan Ave",
-        "phone": "(734) 944-6227"
+        "name": "Alpha Koney Island",
+        "rating": 4.5,
+        "price": "Price not provided",
+        "city": "Ann Arbor",
+        "address": "4389 Jackson Rd",
+        "phone": "(734) 780-7102"
       },
       {
         "name": "Full House",
@@ -5540,6 +5540,14 @@
         "city": "Ypsilanti",
         "address": "1785 Washtenaw Rd",
         "phone": "(734) 773-7070"
+      },
+      {
+        "name": "Mac's Acadian Seafood Shack",
+        "rating": 3.5,
+        "price": "$$$",
+        "city": "Saline",
+        "address": "104 E Michigan Ave",
+        "phone": "(734) 944-6227"
       },
       {
         "name": "Black Rock Bar and Grill",
@@ -5588,14 +5596,6 @@
         "city": "Dexter",
         "address": "8114 Main St",
         "phone": "(734) 426-1234"
-      },
-      {
-        "name": "Alpha Koney Island",
-        "rating": 4.5,
-        "price": "Price not provided",
-        "city": "Ann Arbor",
-        "address": "4389 Jackson Rd",
-        "phone": "(734) 780-7102"
       },
       {
         "name": "Brown Jug",
@@ -6328,20 +6328,20 @@
         "phone": "(734) 913-8888"
       },
       {
-        "name": "Jet's Pizza",
-        "rating": 2.5,
-        "price": "$$$$",
-        "city": "Ypsilanti",
-        "address": "1298 Anna J Stepp Rd",
-        "phone": "(734) 484-1900"
-      },
-      {
         "name": "Little Caesar's Pizza",
         "rating": 3.5,
         "price": "$",
         "city": "Saline",
         "address": "6901 State Rd",
         "phone": "(734) 470-6481"
+      },
+      {
+        "name": "Jet's Pizza",
+        "rating": 2.5,
+        "price": "$$$$",
+        "city": "Ypsilanti",
+        "address": "1298 Anna J Stepp Rd",
+        "phone": "(734) 484-1900"
       },
       {
         "name": "Marco's Pizza",
@@ -6742,14 +6742,6 @@
         "phone": "(734) 205-7000"
       },
       {
-        "name": "Jersey Mike's Subs",
-        "rating": 3.5,
-        "price": "$",
-        "city": "Pittsfield",
-        "address": "3650 Carpenter Rd",
-        "phone": "(734) 477-9930"
-      },
-      {
         "name": "Wicked Mary’s",
         "rating": 3.5,
         "price": "$",
@@ -6764,6 +6756,14 @@
         "city": "Ann Arbor",
         "address": "2561 Jackson Ave",
         "phone": "(734) 761-1100"
+      },
+      {
+        "name": "Jersey Mike's Subs",
+        "rating": 3.5,
+        "price": "$",
+        "city": "Pittsfield",
+        "address": "3650 Carpenter Rd",
+        "phone": "(734) 477-9930"
       },
       {
         "name": "Culver's",
@@ -7894,14 +7894,6 @@
         "phone": "(734) 547-9240"
       },
       {
-        "name": "Al's Fresh Fish & Chicken",
-        "rating": 3.5,
-        "price": "Price not provided",
-        "city": "Ypsilanti",
-        "address": "1653 Holmes Rd",
-        "phone": "(734) 544-3474"
-      },
-      {
         "name": "Popeyes Louisiana Kitchen",
         "rating": 2.5,
         "price": "$",
@@ -7924,6 +7916,14 @@
         "city": "Dexter",
         "address": "3219 Broad St",
         "phone": "(734) 426-5110"
+      },
+      {
+        "name": "Al's Fresh Fish & Chicken",
+        "rating": 3.0,
+        "price": "Price not provided",
+        "city": "Ypsilanti",
+        "address": "1653 Holmes Rd",
+        "phone": "(734) 544-3474"
       },
       {
         "name": "KFC",
@@ -8329,15 +8329,7 @@
         "price": "Price not provided",
         "city": "Ann Arbor",
         "address": "3500 Washtenaw",
-        "phone": "(586) 806-5426"
-      },
-      {
-        "name": "Boba Tea House",
-        "rating": 4.5,
-        "price": "Price not provided",
-        "city": "Ann Arbor",
-        "address": "3780 Jackson Rd",
-        "phone": "(734) 436-4794"
+        "phone": "(734) 436-4694"
       },
       {
         "name": "Beyond Juicery + Eatery",
@@ -8345,7 +8337,7 @@
         "price": "Price not provided",
         "city": "Ann Arbor",
         "address": "3200 Ann Arbor-Saline Rd",
-        "phone": ""
+        "phone": "(734) 882-2263"
       },
       {
         "name": "Al Yemen Kitchen",
@@ -8364,6 +8356,14 @@
         "phone": "(734) 585-0266"
       },
       {
+        "name": "Boba Tea House",
+        "rating": 4.0,
+        "price": "Price not provided",
+        "city": "Ann Arbor",
+        "address": "3780 Jackson Rd",
+        "phone": "(734) 436-4794"
+      },
+      {
         "name": "Tropical Smoothie Cafe",
         "rating": 4.5,
         "price": "Price not provided",
@@ -8377,7 +8377,7 @@
         "price": "Price not provided",
         "city": "Ann Arbor",
         "address": "1300 S University",
-        "phone": ""
+        "phone": "(734) 929-5874"
       },
       {
         "name": "Grabbagreen - Ann Arbor",
@@ -8547,7 +8547,7 @@
         "price": "Price not provided",
         "city": "Ann Arbor",
         "address": "3500 Washtenaw",
-        "phone": "(586) 806-5426"
+        "phone": "(734) 436-4694"
       },
       {
         "name": "Tower Inn Cafe",
@@ -8571,7 +8571,7 @@
         "price": "Price not provided",
         "city": "Ann Arbor",
         "address": "3200 Ann Arbor-Saline Rd",
-        "phone": ""
+        "phone": "(734) 882-2263"
       },
       {
         "name": "Noodles & Company",
@@ -8815,7 +8815,7 @@
         "price": "Price not provided",
         "city": "Ann Arbor",
         "address": "3200 Ann Arbor-Saline Rd",
-        "phone": ""
+        "phone": "(734) 882-2263"
       },
       {
         "name": "Beyond Juicery + Eatery",
@@ -8823,7 +8823,7 @@
         "price": "Price not provided",
         "city": "Ann Arbor",
         "address": "1300 S University",
-        "phone": ""
+        "phone": "(734) 929-5874"
       },
       {
         "name": "Wing Fellas",
@@ -9196,7 +9196,7 @@
         },
         {
           "name": "Shrimp Flavours",
-          "rating": 5.0,
+          "rating": 4.5,
           "price": "$$",
           "city": "Ypsilanti",
           "address": "529 W Cross St",
@@ -9847,20 +9847,20 @@
           "phone": "(734) 332-1004"
         },
         {
-          "name": "Arirang",
-          "rating": 4.0,
-          "price": "$$",
-          "city": "Ann Arbor",
-          "address": "3135 Oak Valley Dr",
-          "phone": "(734) 222-5959"
-        },
-        {
           "name": "Biwako Sushi",
           "rating": 4.0,
           "price": "$$",
           "city": "Saline",
           "address": "1355 E Michigan Ave",
           "phone": "(734) 944-6301"
+        },
+        {
+          "name": "Arirang",
+          "rating": 4.0,
+          "price": "$$",
+          "city": "Ann Arbor",
+          "address": "3135 Oak Valley Dr",
+          "phone": "(734) 222-5959"
         },
         {
           "name": "KOSMO'S Bop Shop",
@@ -10296,7 +10296,7 @@
         },
         {
           "name": "HK China One",
-          "rating": 3.5,
+          "rating": 5.0,
           "price": "Price not provided",
           "city": "Ypsilanti",
           "address": "517 W Cross St",
@@ -10410,7 +10410,7 @@
         },
         {
           "name": "Boba Tea House",
-          "rating": 4.5,
+          "rating": 4.0,
           "price": "Price not provided",
           "city": "Ann Arbor",
           "address": "3780 Jackson Rd",
@@ -10627,20 +10627,20 @@
           "phone": "(734) 929-4161"
         },
         {
-          "name": "TAQ - Taqueria Restaurant & Bar",
-          "rating": 4.0,
-          "price": "$$",
-          "city": "Ann Arbor",
-          "address": "106 E Liberty St",
-          "phone": "(734) 369-6922"
-        },
-        {
           "name": "Latin American Cuban Cuisine",
           "rating": 4.5,
           "price": "Price not provided",
           "city": "Ypsilanti",
           "address": "2269 Ellsworth Rd",
           "phone": "(734) 961-7452"
+        },
+        {
+          "name": "TAQ - Taqueria Restaurant & Bar",
+          "rating": 4.0,
+          "price": "$$",
+          "city": "Ann Arbor",
+          "address": "106 E Liberty St",
+          "phone": "(734) 369-6922"
         },
         {
           "name": "Cosa Sabrosa",
@@ -11550,7 +11550,7 @@
         },
         {
           "name": "Al's Fresh Fish & Chicken",
-          "rating": 3.5,
+          "rating": 3.0,
           "price": "Price not provided",
           "city": "Ypsilanti",
           "address": "1653 Holmes Rd",
@@ -11583,20 +11583,20 @@
           "phone": "(734) 971-5552"
         },
         {
-          "name": "Ahmo's Gyros & Deli",
-          "rating": 3.5,
-          "price": "$",
-          "city": "Ann Arbor",
-          "address": "2505 Dexter-Ann Arbor Rd",
-          "phone": "(734) 998-4445"
-        },
-        {
           "name": "Alpha Koney Island",
           "rating": 4.5,
           "price": "Price not provided",
           "city": "Ann Arbor",
           "address": "4389 Jackson Rd",
           "phone": "(734) 780-7102"
+        },
+        {
+          "name": "Ahmo's Gyros & Deli",
+          "rating": 3.5,
+          "price": "$",
+          "city": "Ann Arbor",
+          "address": "2505 Dexter-Ann Arbor Rd",
+          "phone": "(734) 998-4445"
         },
         {
           "name": "Leo's Coney Island",
@@ -11761,20 +11761,20 @@
         "phone": "(734) 219-3768"
       },
       {
-        "name": "Thompson & Co.",
-        "rating": 4.5,
-        "price": "$$",
-        "city": "Ypsilanti",
-        "address": "400 N River St",
-        "phone": "(734) 441-6200"
-      },
-      {
         "name": "Nightcap",
         "rating": 4.0,
         "price": "$$",
         "city": "Ann Arbor",
         "address": "220 S Main St",
         "phone": "(734) 369-6070"
+      },
+      {
+        "name": "Thompson & Co.",
+        "rating": 4.5,
+        "price": "$$",
+        "city": "Ypsilanti",
+        "address": "400 N River St",
+        "phone": "(734) 441-6200"
       },
       {
         "name": "Wax Bar",
@@ -12055,20 +12055,20 @@
         "phone": "(734) 996-1456"
       },
       {
-        "name": "Buddy's Pizza - Ann Arbor",
-        "rating": 4.0,
-        "price": "$$",
-        "city": "Ann Arbor",
-        "address": "3153 Ann Arbor-Saline Rd",
-        "phone": "(734) 792-9130"
-      },
-      {
         "name": "Carlyle Grill",
         "rating": 4.0,
         "price": "$$",
         "city": "Ann Arbor",
         "address": "3660 Jackson Rd",
         "phone": "(734) 213-9800"
+      },
+      {
+        "name": "Buddy's Pizza - Ann Arbor",
+        "rating": 4.0,
+        "price": "$$",
+        "city": "Ann Arbor",
+        "address": "3153 Ann Arbor-Saline Rd",
+        "phone": "(734) 792-9130"
       },
       {
         "name": "Old Town Tavern",
@@ -12795,20 +12795,20 @@
         "phone": "(734) 528-3333"
       },
       {
-        "name": "Pita Express and catering",
-        "rating": 4.5,
-        "price": "$",
-        "city": "Ypsilanti",
-        "address": "3765 Carpenter Rd",
-        "phone": "(734) 531-6495"
-      },
-      {
         "name": "Caspian Mediterranean Grill",
         "rating": 4.0,
         "price": "$$",
         "city": "Ypsilanti",
         "address": "1334 Anna J Stepp Rd",
         "phone": "(734) 219-0505"
+      },
+      {
+        "name": "Pita Express and catering",
+        "rating": 4.5,
+        "price": "$",
+        "city": "Ypsilanti",
+        "address": "3765 Carpenter Rd",
+        "phone": "(734) 531-6495"
       },
       {
         "name": "Pita Kabob Grill",
@@ -13118,7 +13118,7 @@
       },
       {
         "name": "Al's Fresh Fish & Chicken",
-        "rating": 3.5,
+        "rating": 3.0,
         "price": "Price not provided",
         "city": "Ypsilanti",
         "address": "1653 Holmes Rd",

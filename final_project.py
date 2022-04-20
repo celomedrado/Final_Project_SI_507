@@ -347,13 +347,18 @@ class Tree():
         self.root = root
         self.children = []
         self.Nodes = []
+        self.Tree = {}
         
     def addNode(self,obj):
         self.children.append(obj)
 
-    def show_tree(self):
-        print(self)
-    
+    def getJsonTree(self):
+        for i in range(len(self.children)):
+            self.Nodes.append([self.children[i].data, []])
+            self.children[i].getAllNodes(self.Nodes[i][1])
+        print(self.Nodes)
+        write_json('tree.json', self.Nodes)
+        
     def getChildNode(self):
         i = 1
         for child in self.children:
@@ -377,15 +382,20 @@ class Node():
                 i +=1
     def getChildNodes(self):
          return self.children
+    
+    def getAllNodes(self, Tree):
+        for z in range(len(self.children)):
+            if self.children[z].children:
+                Tree.append([self.children[z].data, []])
+                self.children[z].getAllNodes(Tree[z][1])
+            else:
+                Tree.append(self.children[z].data)
 
 tree = Tree('Restaurants')
-# for k in dicts:
-#     tree.addNode(Node(k)) # Add categories
-
 
 # Creating tree with recursion
 
-def create_tree(dicts, tree):
+def create_nodes(dicts, tree):
     x = tree
     if isinstance(dicts, list) and 'name' in dicts[0]: # Base case
         for i in dicts:
@@ -396,11 +406,17 @@ def create_tree(dicts, tree):
         for z in dicts.keys():
             tree.addNode(Node(z))
             counter += 1
-            x = create_tree(dicts[z], tree.children[counter-1])
+            x = create_nodes(dicts[z], tree.children[counter-1])
             
         return x
 
-create_tree(dicts, tree)
+create_nodes(dicts, tree)
+
+tree.getJsonTree()
+
+
+# write_json('tree.json', tree)
+
 
 # Instantiating  subcategories without recursion
  
