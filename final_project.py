@@ -439,8 +439,7 @@ tree.getJsonTree()
 #             for y in dicts[k][i]: # Add restaurants  
 #                 tree.children[counter].children[counter2].addNode(Node(y))
 #         counter2 += 1
-#     counter += 1
-    
+#     counter += 1  
 
 if __name__ == "__main__":
 
