@@ -1,7 +1,7 @@
 import unittest
 import final_project as fp
 
-class TestCard(unittest.TestCase):
+class TestTree(unittest.TestCase):
 
     def test_tree(self):
 

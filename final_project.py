@@ -387,7 +387,7 @@ tree = Tree('Restaurants')
 
 def create_tree(dicts, tree):
     x = tree
-    if isinstance(dicts, list) and 'name' in dicts[0]:
+    if isinstance(dicts, list) and 'name' in dicts[0]: # Base case
         for i in dicts:
            tree.addNode(Node(i))
         return tree
