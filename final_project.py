@@ -349,7 +349,7 @@ class Tree():
         self.children = []
         self.Nodes = []
         self.Tree = {}
-        
+
     def addNode(self,obj):
         self.children.append(obj)
 
@@ -359,7 +359,7 @@ class Tree():
             self.children[i].getAllNodes(self.Nodes[i][1])
         self.Nodes.insert(0, self.root)
         write_json('tree.json', self.Nodes)
-        
+
     def getChildNode(self):
         i = 1
         for child in self.children:
@@ -371,19 +371,20 @@ class Node():
         self.data = data
         self.children = []
         self.index = 0
-    
+
     def addNode(self,obj):
         self.children.append(obj)
-    
+
     def printChildNodes(self):
          i = 1
          for child in self.children:
              if self.children:
                 print(f"{i} - {child.data}")
                 i +=1
+
     def getChildNodes(self):
          return self.children
-    
+
     def getAllNodes(self, Tree):
         for z in range(len(self.children)):
             if self.children[z].children:
@@ -454,6 +455,7 @@ if __name__ == "__main__":
             break
         elif value.isnumeric() == False:
             print('\nYou need to insert a number. \n')
+
         else:
             value = int(value)
             tree.children[value-1].printChildNodes()
@@ -476,6 +478,7 @@ if __name__ == "__main__":
                     break
                 elif value3.isnumeric() == False:
                     print('\nYou need to insert a number. \n')
+
                 
                 else:
                     value3 = int(value3)
