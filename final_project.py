@@ -1,3 +1,4 @@
+from logging import root
 import requests
 import json
 from urllib.request import urlopen
@@ -356,6 +357,7 @@ class Tree():
         for i in range(len(self.children)):
             self.Nodes.append([self.children[i].data, []])
             self.children[i].getAllNodes(self.Nodes[i][1])
+        self.Nodes.insert(0, self.root)
         write_json('tree.json', self.Nodes)
         
     def getChildNode(self):
