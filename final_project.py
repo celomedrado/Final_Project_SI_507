@@ -1,4 +1,3 @@
-from logging import root
 import requests
 import json
 from urllib.request import urlopen
@@ -133,13 +132,13 @@ endpoint_url = 'https://api.yelp.com/v3/businesses/search'
 headers = {'Authorization': yelp_key}
 results = []
 for offset in range(0, 1000, 50):
-        params = {
-            'location': 'Ann Arbor',
-            'limit': '50',
-            'sort_by':'rating',
-            'offset': offset
-        }
-        results.extend(make_request_with_cache(endpoint_url, params=params, headers=headers)['businesses'])
+    params = {
+        'location': 'Ann Arbor',
+        'limit': '50',
+        'sort_by':'rating',
+        'offset': offset
+    }
+    results.extend(make_request_with_cache(endpoint_url, params=params, headers=headers)['businesses'])
 
 
 restaurants = []

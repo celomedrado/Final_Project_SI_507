@@ -2,120 +2,91 @@
 
 ## ✨Project Description
 
-`readme-md-generator` is able to read your environment (package.json, git config...) to suggest you default answers during the `README.md` creation process:
+The program will ask the user questions in the command prompt such as "'What type of food would you like to eat?" and will provide a list of categories. The user will choose a category and more questions will be asked in order to walk through the tree. Finally, the program will show a list of recommendations of restaurants in the Ann Arbor region, their price level, ratings, address, and phone number.
 
-<p align="center">
-  <img width="700" align="center" src="https://user-images.githubusercontent.com/9840435/60266022-72a82400-98e7-11e9-9958-f9004c2f97e1.gif" alt="demo"/>
-</p>
+The data source used is from Yelp Fusion API. 
 
-Generated `README.md`:
+### *Example*
 
-<p align="center">
-  <img width="700" src="https://user-images.githubusercontent.com/9840435/60266090-9cf9e180-98e7-11e9-9cac-3afeec349bbc.jpg" alt="cli output"/>
-</p>
+This is the first question that the program will ask to the user. Then, it will drill down in more categories to learn more about the user's choices.
 
-Example of `package.json` with good meta data:
+```console
+What type of food would you like to eat? 
 
-```json
-// The package.json is not required to run README-MD-GENERATOR
-{
-  "name": "readme-md-generator",
-  "version": "0.1.3",
-  "description": "CLI that generates beautiful README.md files.",
-  "author": "Franck Abgrall",
-  "license": "MIT",
-  "homepage": "https://github.com/kefranabg/readme-md-generator#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kefranabg/readme-md-generator.git"
-  },
-  "bugs": {
-    "url": "https://github.com/kefranabg/readme-md-generator/issues"
-  },
-  "engines": {
-    "npm": ">=5.5.0",
-    "node": ">=9.3.0"
-  }
-}
+1 - Deli
+2 - Coffee and Tea
+3 - Deserts
+4 - American
+5 - Healthy
+6 - International
+7 - Bars
+8 - Mediterranean and Seafood
+Enter a number for the category of your choice, or "exit" to quit:
 ```
 
-## 🚀 Usage
+After asking some questions to the user, the program will provide a list of restaurantes based on the user's choices.
 
-Make sure you have [npx](https://www.npmjs.com/package/npx) installed (`npx` is shipped by default since npm `5.2.0`)
+```console
+Great! Here is the list of Indian restaurants in Michigan that I recommend based on your answers: 
 
-Just run the following command at the root of your project and answer questions:
+Restaurant: Hutkay Fusion
+----------------------------
+-> Rating: 5.0
+-> Price: Price not provided
+-> City: Ann Arbor
+-> Address: 3022 Packard St
+-> Phone: (734) 786-8312
 
-```sh
-npx readme-md-generator
+#######################################
+
+Restaurant: Everest Sherpa Restaurant
+----------------------------
+-> Rating: 4.5
+-> Price: $$
+-> City: Ann Arbor
+-> Address: 2803 Oak Valley Dr
+-> Phone: (734) 997-5490
+
+#######################################
 ```
 
-Or use default values for all questions (`-y`):
+## :wrench: Packages
 
-```sh
-npx readme-md-generator -y
+- Requests
+- Json
+
+## :key: How to supply API keys
+
+In order to access Yelp Fusion's API, I signed up on their website and got their API KEY. The keys provided by Yelp Fusion's API are stored in a file called `secrets.py`.
+
+The API requires that you pass the key as the header of your request by using the following sintax.
+
+```python
+headers = {'Authorization': yelp_key}
 ```
 
-Use your own `ejs` README template (`-p`):
+### Endpoint
 
-```sh
-npx readme-md-generator -p path/to/my/own/template.md
+The endpoint that I used to get the data from the API was the following.
+
+```python
+endpoint_url = 'https://api.yelp.com/v3/businesses/search'
 ```
 
-You can find [ejs README template examples here](https://github.com/kefranabg/readme-md-generator/tree/master/templates).
+### Params
 
-## Code Contributors
+In order to get the restaurants from Ann Arbor region at Yelp Fusion's API, I used the following params. 
 
-This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
-<a href="https://github.com/kefranabg/readme-md-generator/graphs/contributors"><img src="https://opencollective.com/readme-md-generator/contributors.svg?width=890&button=false" /></a>
+This request returned 1000 records from the API. 
 
-## Financial Contributors
+```python
+for offset in range(0, 1000, 50):
+    params = {
+        'location': 'Ann Arbor',
+        'limit': '50',
+        'sort_by':'rating',
+        'offset': offset
+    }
+    results.extend(make_request_with_cache(endpoint_url, params=params, headers=headers)['businesses'])
+```
 
-Become a financial contributor and help us sustain our community. [[Contribute](https://opencollective.com/readme-md-generator/contribute)]
-
-### Individuals
-
-<a href="https://opencollective.com/readme-md-generator"><img src="https://opencollective.com/readme-md-generator/individuals.svg?width=890"></a>
-
-### Organizations
-
-Support this project with your organization. Your logo will show up here with a link to your website. [[Contribute](https://opencollective.com/readme-md-generator/contribute)]
-<a href="https://opencollective.com/readme-md-generator/organization/0/website"><img src="https://opencollective.com/readme-md-generator/organization/0/avatar.svg"></a>
-<a href="https://opencollective.com/readme-md-generator/organization/1/website"><img src="https://opencollective.com/readme-md-generator/organization/1/avatar.svg"></a>
-<a href="https://opencollective.com/readme-md-generator/organization/2/website"><img src="https://opencollective.com/readme-md-generator/organization/2/avatar.svg"></a>
-<a href="https://opencollective.com/readme-md-generator/organization/3/website"><img src="https://opencollective.com/readme-md-generator/organization/3/avatar.svg"></a>
-<a href="https://opencollective.com/readme-md-generator/organization/4/website"><img src="https://opencollective.com/readme-md-generator/organization/4/avatar.svg"></a>
-<a href="https://opencollective.com/readme-md-generator/organization/5/website"><img src="https://opencollective.com/readme-md-generator/organization/5/avatar.svg"></a>
-<a href="https://opencollective.com/readme-md-generator/organization/6/website"><img src="https://opencollective.com/readme-md-generator/organization/6/avatar.svg"></a>
-<a href="https://opencollective.com/readme-md-generator/organization/7/website"><img src="https://opencollective.com/readme-md-generator/organization/7/avatar.svg"></a>
-<a href="https://opencollective.com/readme-md-generator/organization/8/website"><img src="https://opencollective.com/readme-md-generator/organization/8/avatar.svg"></a>
-<a href="https://opencollective.com/readme-md-generator/organization/9/website"><img src="https://opencollective.com/readme-md-generator/organization/9/avatar.svg"></a>
-
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome.<br />
-Feel free to check [issues page](https://github.com/kefranabg/readme-md-generator/issues) if you want to contribute.<br />
-[Check the contributing guide](./CONTRIBUTING.md).<br />
-
-## Author
-
-👤 **Franck Abgrall**
-
-- Twitter: [@FranckAbgrall](https://twitter.com/FranckAbgrall)
-- Github: [@kefranabg](https://github.com/kefranabg)
-
-## Show your support
-
-Please ⭐️ this repository if this project helped you!
-
-<a href="https://www.patreon.com/FranckAbgrall">
-  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
-</a>
-
-## 📝 License
-
-Copyright © 2019 [Franck Abgrall](https://github.com/kefranabg).<br />
-This project is [MIT](https://github.com/kefranabg/readme-md-generator/blob/master/LICENSE) licensed.
-
----
-
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
